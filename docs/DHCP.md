@@ -28,7 +28,7 @@ Verified
 - DNS Registration
 - Client Communication
 
-Scope Options
+Scope Options (NOTE: This is isolated setup hence I did not setup Router to get internet access due to my setup limitation.)
 <img width="1139" height="350" alt="image" src="https://github.com/user-attachments/assets/bc6518ef-e52b-417a-b942-c277b2e6ae55" />
 
 
