@@ -34,7 +34,7 @@ Current technologies include:
 # Architecture
 
 <img width="1197" height="1314" alt="Enterprise Homelab Architecture" src="https://github.com/user-attachments/assets/63ad6194-fe4c-4dae-ae61-b7b47fbb59aa" />
-
+```
 
 
 ```
