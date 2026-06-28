@@ -32,44 +32,11 @@ Current technologies include:
 ---
 
 # Architecture
+<img width="1199" height="1312" alt="Enterprise Homelab Architecture" src="https://github.com/user-attachments/assets/3ab0e9e4-f2fe-47ad-874f-f8c562656776" />
 
-> **Screenshot Placeholder**
->
-> Add architecture diagram here.
 
-```
-                    Internet
-                        │
-                 UniFi Gateway
-                        │
-                  Home Network
-                 192.168.1.0/24
-                        │
-                     vmbr0
-                        │
-                 Proxmox Server
-                        │
-      ┌─────────────────┴─────────────────┐
-      │                                   │
-      │                            Existing Services
-      │
-      │
- Windows Server 2025
- (Management NIC)
- 192.168.1.238
-      │
-────────────────────────────────────────────────────────
 
-vmbr1 (Internal Enterprise Network)
 
-10.20.1.0/24
-
-      │
-      ├───────────────┐
-      │               │
-      │               │
-DC01            WIN11-01
-10.20.1.10       DHCP
 ```
 
 ---
