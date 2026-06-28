@@ -111,11 +111,3 @@ Current technologies include:
 - Security Baselines
 
 ---
-
-## Author
-
-Akash Patel
-
-Enterprise Infrastructure Homelab
-
-<img width="1145" height="419" alt="image" src="https://github.com/user-attachments/assets/a2aa71db-f846-4fa3-a9ee-32ba569da678" />
