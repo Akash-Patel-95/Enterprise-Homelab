@@ -45,8 +45,8 @@ Current technologies include:
 
 | Server | Role | IP |
 |---------|------|-------------|
-| DC01 | Active Directory / DNS / DHCP | 10.20.1.10 |
-| DC01 Management | Management Interface | 192.168.1.238 |
+| 25-SRV-OH-01 | Active Directory / DNS / DHCP | 10.20.1.10 |
+| 25-SRV-OH-01 Management | Management Interface | 192.168.1.238 |
 | WIN11-01 | Windows 11 Client | DHCP |
 
 ---
