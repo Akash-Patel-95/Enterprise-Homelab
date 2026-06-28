@@ -143,14 +143,10 @@ Enterprise-Homelab/
 # Documentation
 
 
-🔗 **[Proxmox Network Config]([https://github.com/Akash-Patel-95/Enterprise-Homelab](https://github.com/Akash-Patel-95/Enterprise-Homelab/blob/main/docs/proxmox_network%20config.md))**
-
-| Document              | Description                                    |
-| --------------------- | ---------------------------------------------- |
-| Proxmox.md            | Proxmox installation and network configuration |
-| ActiveDirectory.md    | Active Directory deployment                    |
-| DHCP.md               | DHCP configuration                             |
-| Troubleshooting.md    | Troubleshooting steps and lessons learned      |
+🔗 **[Proxmox Network Config](https://github.com/Akash-Patel-95/Enterprise-Homelab/blob/main/docs/proxmox_network%20config.md)**
+🔗 **[ActiveDirectory](https://github.com/Akash-Patel-95/Enterprise-Homelab/blob/main/docs/ActiveDirectory.md)**
+🔗 **[DHCP](https://github.com/Akash-Patel-95/Enterprise-Homelab/blob/main/docs/DHCP.md)**
+🔗 **[Troubleshooting](https://github.com/Akash-Patel-95/Enterprise-Homelab/blob/main/docs/Troubleshootin.md)**
 
 ---
 
