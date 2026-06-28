@@ -142,6 +142,9 @@ Enterprise-Homelab/
 
 # Documentation
 
+
+🔗 **[Proxmox Network Config]([https://github.com/Akash-Patel-95/Enterprise-Homelab](https://github.com/Akash-Patel-95/Enterprise-Homelab/blob/main/docs/proxmox_network%20config.md))**
+
 | Document              | Description                                    |
 | --------------------- | ---------------------------------------------- |
 | Proxmox.md            | Proxmox installation and network configuration |
