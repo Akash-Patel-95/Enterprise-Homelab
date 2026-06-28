@@ -27,5 +27,5 @@ Management
 Active Directory Users and Computers
 <img width="785" height="513" alt="image" src="https://github.com/user-attachments/assets/cc26a8ca-154f-4032-8214-0808019a3e50" />
 
-<img width="788" height="516" alt="image" src="https://github.com/user-attachments/assets/41a0f8c8-3220-43fb-90ae-1d65d0035296" />
+<img width="785" height="517" alt="image" src="https://github.com/user-attachments/assets/ba922af4-f115-4dec-a792-20e71dabe12d" />
 
