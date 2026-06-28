@@ -64,7 +64,7 @@ The primary objective is to recreate a small enterprise Active Directory environ
 
 Current technologies include:
 
-* Proxmox VE
+* Proxmox VE 9.2.2
 * Windows Server 2025
 * Active Directory Domain Services (AD DS)
 * DNS
@@ -72,7 +72,7 @@ Current technologies include:
 * Windows 11 Enterprise
 * UniFi Networking
 * Internal Virtual Networking (Proxmox Linux Bridge)
-
+* Wazuh SIEM with a Windows Server 2025 agent for monitoring
 ---
 
 # Lab Objectives
