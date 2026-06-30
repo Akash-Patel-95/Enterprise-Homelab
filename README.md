@@ -3,7 +3,15 @@
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-Last updated **6/29/2026**
+## Latest Updates
+
+**June 29, 2026**
+
+- ✅ Windows 11 Enterprise Template
+- ✅ Organizational Units
+- ✅ Security Groups
+- ✅ SMB Software Repository
+- ✅ Network Drive Mapping
 
 # Enterprise Homelab
 
