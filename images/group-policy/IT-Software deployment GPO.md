@@ -16,4 +16,8 @@ Edit the policy
 
 
 On win11-02 workstation > ran gpupdate /force
-<img width="1224" height="687" alt="image" src="https://github.com/user-attachments/assets/2b061af1-6fae-4ab6-bb3e-2ae183201277" />
+<img width="1386" height="449" alt="image" src="https://github.com/user-attachments/assets/9428001e-195e-48eb-9ed9-0c33ad510a4f" />
+
+reboot the workstation
+Installed 7-Zip
+<img width="884" height="751" alt="image" src="https://github.com/user-attachments/assets/1ed55920-e51b-430f-9f6d-f11d138ada46" />
