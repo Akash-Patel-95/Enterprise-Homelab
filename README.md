@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-Last updated **6/28/2026**
+Last updated **6/29/2026**
 
 # Enterprise Homelab
 
@@ -30,12 +30,17 @@ An enterprise-style Windows infrastructure lab built on **Proxmox VE** to simula
 
 ## Phase 2 – Endpoint Management
 
-* [ ] Create Windows 11 Proxmox Template
-* [ ] Clone and deploy additional Windows clients
-* [ ] Configure Organizational Units (OUs)
-* [ ] Configure Group Policy Objects (GPO)
-* [ ] Deploy software through Group Policy
-* [ ] Create shared folders and network drives
+- [x] Create Windows 11 Enterprise Template (Sysprep)
+- [x] Convert VM into a Proxmox Template
+- [x] Deploy Windows clients from template
+- [x] Configure Organizational Units (OU)
+- [x] Configure Security Groups
+- [x] Configure SMB File Shares
+- [x] Configure Share & NTFS Permissions
+- [x] Map Network Drives
+- [ ] Configure Group Policy Objects (GPO)
+- [ ] Deploy software using Group Policy
+- [ ] PowerShell deployment automation
 
 ## Phase 3 – Enterprise Services
 
@@ -48,11 +53,14 @@ An enterprise-style Windows infrastructure lab built on **Proxmox VE** to simula
 
 ## Phase 4 – Security & Monitoring
 
-* [ ] Sysmon
-* [x] Wazuh SIEM
-* [ ] Microsoft Defender
-* [ ] Security Baselines
-* [ ] Centralized Event Monitoring
+- [x] Deploy Wazuh SIEM
+- [x] Install Wazuh Agent on Windows Server 2025
+- [ ] Deploy Wazuh Agents to Windows Clients
+- [ ] Sysmon
+- [ ] Windows Event Forwarding (WEF)
+- [ ] Microsoft Defender
+- [ ] Security Baselines
+- [ ] Centralized Event Monitoring
 
 ---
 
@@ -103,39 +111,61 @@ Current technologies include:
 | 25-SRV-OH-01 | Domain Controller, DNS, DHCP    | 10.20.1.10    | Internal Enterprise Network |
 | 25-SRV-OH-01 | Management Interface            | 192.168.1.238 | Home Network                |
 | WIN11-01     | Domain-Joined Windows 11 Client | DHCP          | Internal Enterprise Network |
+| WIN11-02     | Domain-Joined Windows 11 Client | DHCP          | Internal Enterprise Network |
+| WIN11-03     | Domain-Joined Windows 11 Client | DHCP          | Internal Enterprise Network |
 
 ---
 
 # Technologies
 
-## Infrastructure
+## Virtualization
 
-* Proxmox VE
-* UniFi Network
-* VirtIO Drivers
+- Proxmox VE
+- VirtIO Drivers
 
 ## Microsoft Technologies
 
-* Windows Server 2025
-* Active Directory Domain Services
-* DNS
-* DHCP
-* Windows 11 Enterprise
+- Windows Server 2025
+- Active Directory Domain Services
+- DNS
+- DHCP
+- Organizational Units (OU)
+- Security Groups
+- SMB File Shares
+- Windows 11 Enterprise
 
+## Networking
+
+- UniFi Network
+- Enterprise Virtual Network
+- SMB File Sharing
+
+## Security
+
+- Wazuh SIEM
 ---
 
 # Repository Structure
 
 ```text
-Enterprise-Homelab/
-
+Enterprise-Homelab
+│
 ├── README.md
-├── docs/
-│   ├── proxmox_network_config.md
+├── CHANGELOG.md
+├── ROADMAP.md
+│
+├── docs
+│   ├── proxmox_network config.md
 │   ├── ActiveDirectory.md
+│   ├── DNS.md
 │   ├── DHCP.md
-├── └── Troubleshooting.md
-
+│   ├── Windows11-Template.md
+│   ├── OrganizationalUnits.md
+│   ├── FileShares.md
+│   ├── GroupPolicy.md
+│   └── Troubleshooting.md
+│
+└── images
 ```
 
 ---
@@ -143,30 +173,15 @@ Enterprise-Homelab/
 # Documentation
 
 
-🔗 **[Proxmox Network Config](https://github.com/Akash-Patel-95/Enterprise-Homelab/blob/main/docs/proxmox_network%20config.md)**
-🔗 **[ActiveDirectory](https://github.com/Akash-Patel-95/Enterprise-Homelab/blob/main/docs/ActiveDirectory.md)**
-🔗 **[DHCP](https://github.com/Akash-Patel-95/Enterprise-Homelab/blob/main/docs/DHCP.md)**
-🔗 **[Troubleshooting](https://github.com/Akash-Patel-95/Enterprise-Homelab/blob/main/docs/Troubleshootin.md)**
+🔗 **[Proxmox Network Config](https://github.com/Akash-Patel-95/Enterprise-Homelab/blob/main/docs/proxmox_network%20config.md)** |
+🔗 **[ActiveDirectory](https://github.com/Akash-Patel-95/Enterprise-Homelab/blob/main/docs/ActiveDirectory.md)** |
+🔗 **[DHCP](https://github.com/Akash-Patel-95/Enterprise-Homelab/blob/main/docs/DHCP.md)** |
+🔗 **[Windows11 Template](https://github.com/Akash-Patel-95/Enterprise-Homelab/blob/main/docs/Troubleshootin.md)** - Coming soon |
+🔗 **[Organizational Units](https://github.com/Akash-Patel-95/Enterprise-Homelab/blob/main/docs/Troubleshootin.md)** - Coming soon |
+🔗 **[File Shares](https://github.com/Akash-Patel-95/Enterprise-Homelab/blob/main/docs/Troubleshootin.md)** - Coming soon |
+🔗 **[Group Policy](https://github.com/Akash-Patel-95/Enterprise-Homelab/blob/main/docs/Troubleshootin.md)** - Coming soon |
+🔗 **[Troubleshooting](https://github.com/Akash-Patel-95/Enterprise-Homelab/blob/main/docs/Troubleshootin.md)** |
 
----
-
-# Future Enhancements
-
-* Windows 11 Template Automation
-* Organizational Units (OU)
-* Group Policy Management
-* Automatic Software Deployment
-* File Server
-* PowerShell Automation
-* WSUS
-* Windows LAPS
-* Active Directory Certificate Services (AD CS)
-* Sysmon
-* Wazuh SIEM Integration
-* Microsoft Defender
-* Security Baselines
-
----
 
 ## Author
 
