@@ -46,8 +46,9 @@ An enterprise-style Windows infrastructure lab built on **Proxmox VE** to simula
 - [x] Configure SMB File Shares
 - [x] Configure Share & NTFS Permissions
 - [x] Map Network Drives
-- [ ] Configure Group Policy Objects (GPO)
-- [ ] Deploy software using Group Policy
+- [x] Configure Group Policy Objects (GPO)
+- [x] Deploy 7-Zip using Group Policy Software Installation (MSI)
+- [ ] Deploy additional software (Chrome, VS Code, VLC)
 - [ ] PowerShell deployment automation
 
 ## Phase 3 – Enterprise Services
@@ -130,6 +131,13 @@ Current technologies include:
 
 - Proxmox VE
 - VirtIO Drivers
+
+### Windows Administration
+
+- Group Policy Management
+- Group Policy Software Installation
+- SMB Software Repository
+- Windows Installer (MSI) Deployment
 
 ## Microsoft Technologies
 
