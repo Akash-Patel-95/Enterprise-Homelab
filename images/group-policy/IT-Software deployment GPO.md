@@ -24,22 +24,34 @@ Installed 7-Zip
 
 
 
-Problem
+Group Policy Software Installation
+Issue
 
-The software package wasn't installing even though the GPO was applied successfully.
+Software assigned through Group Policy did not install on domain-joined Windows clients after reboot.
 
+Symptoms
+Group Policy applied successfully.
+Software package appeared under Software Installation.
+gpresult confirmed the GPO was applied.
+Software never appeared in Installed Apps.
 Root Cause
 
-The MSI package was added using a local server path:
+The MSI package was added using a local file system path:
 
 C:\Shares\Software\7-Zip\7z2602-x64.msi
 
-Clients cannot access a local drive on the server during startup.
+Windows clients cannot access a server's local drive during computer startup.
 
 Resolution
 
-Recreated the software package using the UNC path:
+Removed the package from the GPO and recreated it using the UNC network path:
 
 \\25-SRV-OH-01\Software\7-Zip\7z2602-x64.msi
 
-After updating Group Policy and rebooting, Windows installed 7-Zip successfully during startup.
+Updated Group Policy and restarted the workstation.
+
+The software installed successfully during computer startup.
+
+Lesson Learned
+
+Always use UNC network paths when deploying software through Group Policy.
