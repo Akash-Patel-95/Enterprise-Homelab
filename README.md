@@ -4,14 +4,26 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## Latest Updates
+### June 29, 2026
 
-**June 29, 2026**
-
-- ✅ Windows 11 Enterprise Template
-- ✅ Organizational Units
-- ✅ Security Groups
+- ✅ Windows 11 Enterprise Template (Sysprep)
+- ✅ Proxmox VM Template & Cloning
+- ✅ Organizational Units (OU) Structure
+- ✅ Active Directory Security Groups
 - ✅ SMB Software Repository
+- ✅ Share & NTFS Permissions
 - ✅ Network Drive Mapping
+- ✅ Group Policy Object (GPO) Configuration
+- ✅ 7-Zip Software Deployment via Group Policy
+- ✅ Group Policy Software Deployment Troubleshooting
+
+### Upcoming
+
+- ⏳ Google Chrome Deployment
+- ⏳ VS Code Deployment
+- ⏳ Wazuh Agent Deployment
+- ⏳ PowerShell Automation
+
 
 # Enterprise Homelab
 
