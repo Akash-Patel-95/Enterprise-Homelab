@@ -21,3 +21,25 @@ On win11-02 workstation > ran gpupdate /force
 reboot the workstation
 Installed 7-Zip
 <img width="884" height="751" alt="image" src="https://github.com/user-attachments/assets/1ed55920-e51b-430f-9f6d-f11d138ada46" />
+
+
+
+Problem
+
+The software package wasn't installing even though the GPO was applied successfully.
+
+Root Cause
+
+The MSI package was added using a local server path:
+
+C:\Shares\Software\7-Zip\7z2602-x64.msi
+
+Clients cannot access a local drive on the server during startup.
+
+Resolution
+
+Recreated the software package using the UNC path:
+
+\\25-SRV-OH-01\Software\7-Zip\7z2602-x64.msi
+
+After updating Group Policy and rebooting, Windows installed 7-Zip successfully during startup.
