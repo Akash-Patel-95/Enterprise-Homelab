@@ -151,9 +151,7 @@ Current technologies include:
 Enterprise-Homelab
 │
 ├── README.md
-├── CHANGELOG.md
-├── ROADMAP.md
-│
+|
 ├── docs
 │   ├── proxmox_network config.md
 │   ├── ActiveDirectory.md
